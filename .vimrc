@@ -58,11 +58,11 @@ set grepformat=%f:%l:%m,%f:%l%m,%f\ \ %l%m,%f
 set grepprg=grep\ -nh
 "
 " " 検索結果のハイライトをEsc連打でクリアする
-nnoremap <ESC><ESC> :nohlsearch<CR>
+" nnoremap <ESC><ESC> :nohlsearch<CR>
 " mapping関連カスタマイズ
-map \ <leader>
-noremap ; :
-noremap : ;
+" map \ <leader>
+" noremap ; :
+" noremap : ;
 "
 " add plugins
 "
@@ -266,7 +266,7 @@ if has('vim_starting')
   if !isdirectory(expand("~/.vim/bundle/neobundle.vim/"))
     echo "install neobundle..."
     " vim からコマンド呼び出しているだけ neobundle.vim のクローン
-    :call system("git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim")
+    :call system("git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim")
   endif
   " runtimepath の追加は必須
   set runtimepath+=~/.vim/bundle/neobundle.vim/

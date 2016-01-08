@@ -64,11 +64,11 @@ set grepformat=%f:%l:%m,%f:%l%m,%f\ \ %l%m,%f
 set grepprg=grep\ -nh
 "
 " " 検索結果のハイライトをEsc連打でクリアする
-nnoremap <ESC><ESC> :nohlsearch<CR>
+" nnoremap <ESC><ESC> :nohlsearch<CR>
 " mapping関連カスタマイズ
-map \ <leader>
-noremap ; :
-noremap : ;
+" map \ <leader>
+" noremap ; :
+" noremap : ;
 "
 " add plugins
 "
