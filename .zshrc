@@ -5,6 +5,8 @@
 ########################################
 # 環境変数
 export LANG=ja_JP.UTF-8
+export http_proxy=http://gn-proxy0x.gndomain.gnavi.co.jp:12080/
+export https_proxy=https://gn-proxy0x.gndomain.gnavi.co.jp:12080/
  
  
 # 色を使用出来るようにする
