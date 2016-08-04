@@ -101,6 +101,8 @@ NeoBundle 'plasticboy/vim-markdown'
 NeoBundle 'kannokanno/previm'
 NeoBundle 'tyru/open-browser.vim'
 
+NeoBundle 'junegunn/vim-easy-align'
+
 NeoBundle "tyru/caw.vim.git"
 nmap <C-K> <Plug>(caw:i:toggle)
 vmap <C-K> <Plug>(caw:i:toggle)
