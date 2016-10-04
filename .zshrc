@@ -235,8 +235,8 @@ tmux_automatically_attach_session
 
 
 # enhancd
-if [ -f "/Users/miura-d/.enhancd/zsh/enhancd.zsh" ]; then
-    source "/Users/miura-d/.enhancd/zsh/enhancd.zsh"
+if [ -f "/Users/miura-d/.enhancd/enhancd.sh" ]; then
+    source "/Users/miura-d/.enhancd/enhancd.sh"
 fi
 
 
